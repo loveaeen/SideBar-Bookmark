@@ -1,0 +1,91 @@
+#mySidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 9999;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+
+  .sidebar-icon {
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .sidebar-divider {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+
+  .website-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 0.5em;
+  }
+
+  #webList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /** Youtube */
+  ytd-video-preview {
+    position: fixed !important;
+  }
+
+  /** macos magnification 
+  #mySidebar li img {
+    display: block;
+    -webkit-transition: 0.15s linear;
+    -webkit-transition-property: -webkit-transform margin;
+    // -webkit-box-reflect: below 2px; -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.45, transparent), to(rgba(255, 255, 255, 0.25)));
+  }
+  
+  #webList li:hover {
+    margin-left: 9px; margin-right: 9px;
+    z-index: 200;
+  }
+  
+  #mySidebar li:hover img {
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scale(1.5);
+  }
+  
+  #mySidebar li.nearby {
+    margin-left: 6px; margin-right: 6px;
+    z-index: 100;
+  }
+  
+  #mySidebar li.nearby img {
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scale(1.25);
+  }
+  
+  /** 字体展示，暂时不需要 
+  // #webList li span {
+  //  background: rgba(0,0,0,0.75);
+  //  position: absolute;
+  //  bottom: 80px;
+  //  margin: 0 auto;
+  //  display: none;
+  //  width: auto;
+  //  font-size: 11px;
+  //  font-weight: bold;
+  //  padding: 3px 6px;
+  //  -webkit-border-radius: 6px;
+  //  color: #fff;
+  // }
+  //  #webList li:hover span {
+  //  display: block;
+  // } */
