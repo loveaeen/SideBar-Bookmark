@@ -1,2 +1,2 @@
 # SideBar-Bookmark
-a quick access sidebar for your favorite website
+a quick access sidebar of chrome extension for your favorite website
